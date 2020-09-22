@@ -1,0 +1,76 @@
+think about data structures before coding xD
+sets for logical resolution are the way to go.
+with lists the order of strings would be important!
+
+maybe store this resolution:
+[200~            pairs = list(combinations(clauses, 2))
+            for pair in pairs:
+                # resolvents is a set and resolve returns set!
+                resolvents = self.resolve(pair[0], pair[1])
+                if "" in resolvents:
+                    return True
+                # append union to new
+                new = set().union(resolvents, new)
+            # return false if we did not get any new resolvent
+            # -> if new is subset of clauses after looping through all pairs.
+            clauses_as_set = set(clauses)
+            if new.issubset(clauses_as_set):
+                return False
+            # add new resolvents to our existing clauses for next iteration
+            clauses = list(set().union(new, clauses_as_set))
+
+
+maybe keep:
+        while True:
+            # build each pair of clauses from our list that contains the
+            # clauses as sets
+            # MAYBE try not iterating all pairs twice..
+            # currently o(n²)
+            for set_as_list in clauses:
+                for iterate_all_sets in clauses:
+                    if set_as_list == iterate_all_sets:
+                        return
+                    else:
+                        print("clause1: %s clause2: %s" % (set_as_list,
+                                                           iterate_all_sets))
+                        all_resolvents_of_pair = self.resolve(set_as_list,
+                                                              iterate_all_sets)
+                        print(all_resolvents_of_pair)
+            break
+        return False
+
+
+all pairs:
+Python 3.6.9 (default, Jul 17 2020, 12:50:27)
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import itertools
+>>> x = {1,2}
+>>> y = {3,4}
+>>> k.append(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'k' is not defined
+>>> k = []
+>>> k.append(x)
+>>> k.append(y)
+>>> k
+[{1, 2}, {3, 4}]
+>>> z = itertools.permutations(k,2)
+>>> z
+<itertools.permutations object at 0x7f9a7646d0f8>
+>>> itertools.permutations(k,2)
+<itertools.permutations object at 0x7f9a7646d1a8>
+>>> list(itertools.permutations(k,2))
+[({1, 2}, {3, 4}), ({3, 4}, {1, 2})]
+>>> list(itertools.combinations(k,2))
+[({1, 2}, {3, 4})]
+>>> q = {5,6}
+>>> k.append(q)
+>>> list(itertools.combinations(k,2))
+[({1, 2}, {3, 4}), ({1, 2}, {5, 6}), ({3, 4}, {5, 6})]
+>>>
+
+
+test specific test case with unittest:
+py unittests.py TestInferenceAlgorithm.test_resolution_true_advanced

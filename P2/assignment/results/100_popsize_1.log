@@ -1,0 +1,52 @@
+Fitness value: 26 state: 38641753 current iteration: 1 
+Fitness value: 22 state: 81647253 current iteration: 2 
+Fitness value: 22 state: 68647253 current iteration: 3 
+Fitness value: 24 state: 41483825 current iteration: 4 
+Fitness value: 24 state: 81142753 current iteration: 5 
+Fitness value: 24 state: 11773825 current iteration: 6 
+Fitness value: 26 state: 38642753 current iteration: 7 
+Fitness value: 24 state: 41642753 current iteration: 8 
+Fitness value: 24 state: 14642753 current iteration: 9 
+Fitness value: 26 state: 18642753 current iteration: 10 
+Fitness value: 24 state: 68713824 current iteration: 11 
+Fitness value: 26 state: 71642853 current iteration: 12 
+Fitness value: 24 state: 64713827 current iteration: 13 
+Fitness value: 26 state: 65713824 current iteration: 14 
+Fitness value: 24 state: 68714753 current iteration: 15 
+Fitness value: 26 state: 65713824 current iteration: 16 
+Fitness value: 26 state: 51813724 current iteration: 17 
+Fitness value: 26 state: 65713824 current iteration: 18 
+Fitness value: 26 state: 65713824 current iteration: 19 
+Fitness value: 24 state: 61713825 current iteration: 20 
+Fitness value: 26 state: 61713824 current iteration: 21 
+Fitness value: 24 state: 62713184 current iteration: 22 
+Fitness value: 26 state: 61743825 current iteration: 23 
+Fitness value: 26 state: 65713824 current iteration: 24 
+Fitness value: 26 state: 65713824 current iteration: 25 
+Fitness value: 26 state: 65713824 current iteration: 26 
+Fitness value: 26 state: 65713824 current iteration: 27 
+Fitness value: 26 state: 61713824 current iteration: 28 
+Fitness value: 26 state: 65713824 current iteration: 29 
+Fitness value: 26 state: 65713824 current iteration: 30 
+Fitness value: 26 state: 65713824 current iteration: 31 
+Fitness value: 26 state: 15713824 current iteration: 32 
+Fitness value: 26 state: 62713524 current iteration: 33 
+Fitness value: 26 state: 61713824 current iteration: 34 
+Optimum found after 35 iterations!
+['E', 'E', 'E', 'Q', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'E', 'E', 'Q', 'E']
+['E', 'E', 'E', 'E', 'Q', 'E', 'E', 'E']
+['E', 'Q', 'E', 'E', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'E', 'Q', 'E', 'E']
+['Q', 'E', 'E', 'E', 'E', 'E', 'E', 'E']
+['E', 'E', 'Q', 'E', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'E', 'E', 'E', 'Q']
+Fitness value: 28 state: 64713528 current iteration: 35 
+CONSTANTS 
+
+POPULATION_SIZE 100 
+SURVIVAL_THRESHOLD 18 
+MUTATION_PROBABILITY 0.3
+FITNESS_OPTIMUM 28
+It took: 12.4298996925354 seconds
+

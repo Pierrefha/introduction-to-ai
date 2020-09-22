@@ -1,0 +1,91 @@
+Fitness value: 24 state: 62418357 current iteration: 1 
+Fitness value: 24 state: 61357142 current iteration: 2 
+Fitness value: 26 state: 52417463 current iteration: 3 
+Fitness value: 26 state: 82417463 current iteration: 4 
+Fitness value: 24 state: 51868271 current iteration: 5 
+Fitness value: 24 state: 46152834 current iteration: 6 
+Fitness value: 24 state: 46157283 current iteration: 7 
+Fitness value: 26 state: 86162574 current iteration: 8 
+Fitness value: 26 state: 46157138 current iteration: 9 
+Fitness value: 24 state: 86318572 current iteration: 10 
+Fitness value: 26 state: 46157138 current iteration: 11 
+Fitness value: 24 state: 46161528 current iteration: 12 
+Fitness value: 25 state: 77168574 current iteration: 13 
+Fitness value: 25 state: 83168248 current iteration: 14 
+Fitness value: 24 state: 84118572 current iteration: 15 
+Fitness value: 26 state: 83168574 current iteration: 16 
+Fitness value: 26 state: 46357162 current iteration: 17 
+Fitness value: 24 state: 46162574 current iteration: 18 
+Fitness value: 24 state: 47181572 current iteration: 19 
+Fitness value: 26 state: 27168574 current iteration: 20 
+Fitness value: 24 state: 66118572 current iteration: 21 
+Fitness value: 24 state: 86118572 current iteration: 22 
+Fitness value: 24 state: 66318572 current iteration: 23 
+Fitness value: 26 state: 86162574 current iteration: 24 
+Fitness value: 26 state: 86162574 current iteration: 25 
+Fitness value: 26 state: 86162574 current iteration: 26 
+Fitness value: 26 state: 86162574 current iteration: 27 
+Fitness value: 25 state: 37728574 current iteration: 28 
+Fitness value: 24 state: 73182572 current iteration: 29 
+Fitness value: 26 state: 64118572 current iteration: 30 
+Fitness value: 26 state: 64158572 current iteration: 31 
+Fitness value: 24 state: 86118572 current iteration: 32 
+Fitness value: 24 state: 74118572 current iteration: 33 
+Fitness value: 24 state: 86117572 current iteration: 34 
+Fitness value: 24 state: 83162572 current iteration: 35 
+Fitness value: 24 state: 83162174 current iteration: 36 
+Fitness value: 24 state: 74118572 current iteration: 37 
+Fitness value: 26 state: 86417572 current iteration: 38 
+Fitness value: 26 state: 86418572 current iteration: 39 
+Fitness value: 24 state: 26168573 current iteration: 40 
+Fitness value: 24 state: 86418273 current iteration: 41 
+Fitness value: 24 state: 86128574 current iteration: 42 
+Fitness value: 24 state: 26128574 current iteration: 43 
+Fitness value: 25 state: 86111572 current iteration: 44 
+Fitness value: 25 state: 86111572 current iteration: 45 
+Fitness value: 25 state: 86111572 current iteration: 46 
+Fitness value: 26 state: 26118574 current iteration: 47 
+Fitness value: 25 state: 86111572 current iteration: 48 
+Fitness value: 25 state: 73182522 current iteration: 49 
+Fitness value: 26 state: 86162574 current iteration: 50 
+Fitness value: 24 state: 86118572 current iteration: 51 
+Fitness value: 26 state: 26138574 current iteration: 52 
+Fitness value: 24 state: 86168574 current iteration: 53 
+Fitness value: 26 state: 64183572 current iteration: 54 
+Fitness value: 26 state: 83168574 current iteration: 55 
+Fitness value: 26 state: 83168574 current iteration: 56 
+Fitness value: 25 state: 26118571 current iteration: 57 
+Fitness value: 26 state: 26118574 current iteration: 58 
+Fitness value: 24 state: 64613574 current iteration: 59 
+Fitness value: 25 state: 64118571 current iteration: 60 
+Fitness value: 25 state: 86111572 current iteration: 61 
+Fitness value: 26 state: 86418572 current iteration: 62 
+Fitness value: 25 state: 86111572 current iteration: 63 
+Fitness value: 25 state: 86111572 current iteration: 64 
+Fitness value: 25 state: 86111572 current iteration: 65 
+Fitness value: 25 state: 86111572 current iteration: 66 
+Fitness value: 24 state: 83181572 current iteration: 67 
+Fitness value: 25 state: 86111572 current iteration: 68 
+Fitness value: 25 state: 86111572 current iteration: 69 
+Fitness value: 26 state: 86411572 current iteration: 70 
+Fitness value: 26 state: 86411572 current iteration: 71 
+Fitness value: 24 state: 84118572 current iteration: 72 
+Fitness value: 26 state: 83168574 current iteration: 73 
+Optimum found after 74 iterations!
+['E', 'E', 'Q', 'E', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'Q', 'E', 'E', 'E']
+['E', 'Q', 'E', 'E', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'E', 'E', 'E', 'Q']
+['E', 'E', 'E', 'E', 'E', 'Q', 'E', 'E']
+['E', 'E', 'E', 'Q', 'E', 'E', 'E', 'E']
+['E', 'E', 'E', 'E', 'E', 'E', 'Q', 'E']
+['Q', 'E', 'E', 'E', 'E', 'E', 'E', 'E']
+Fitness value: 28 state: 83162574 current iteration: 74 
+CONSTANTS 
+
+POPULATION_SIZE 100 
+SURVIVAL_THRESHOLD 18 
+MUTATION_PROBABILITY 0.3
+FITNESS_OPTIMUM 28
+It took: 22 seconds
+

@@ -1,0 +1,6 @@
+# python stuff
+__pycache__
+# vim stuff
+tags
+*.swp
+*.swo
